@@ -1,0 +1,145 @@
+/* General Body */
+body
+{
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  text-align: center;
+  margin:0px;
+  max-width: 100%;
+  overflow-x: hidden;
+
+}
+
+/* Header */
+header
+{
+  display: flex;
+  position: fixed;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid seashell;
+  background-color: black;
+  height: 69px;
+  width: 100%;
+}
+
+header img
+{
+  height: 50px;
+}
+
+header span
+{
+  text-decoration: underline;
+}
+
+a:link,
+  a:visited,
+    a:hover,
+      a:active{
+  color: white;
+}
+
+/* Our Mission */
+.OurMission
+{
+  display: flex;
+  align-items: center;
+  background-image: url("../images/missionbackground.jpg");
+  background-size: cover;
+  height: 700px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.heading
+{
+  background-color: black;
+  width: 1500px;
+}
+
+.heading h4
+{
+  margin: 10px;
+}
+
+.heading h2
+{
+  margin: 10px;
+}
+/* Tea of the Month */
+.Month img
+{
+  width: 300px;
+  height: 200px;
+  margin-bottom: 10px;
+}
+
+.Month
+{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+  width: 1000px;
+  margin-left: 15%;
+}
+
+.Month h4
+{
+  margin: 0px;
+}
+
+/* Locations */
+
+.baselocation
+{
+  background-image:url("../images/locations.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.location
+{
+
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  height: 500px;
+}
+
+.downtown,
+  .east,
+    .oakdale
+{
+  width: 300px;
+  margin: 0px 20px;
+  opacity: 1;
+  background-color: black;
+
+}
+
+#location
+{
+  margin: 15px 0px;
+
+}
+
+/* footer */
+.footer
+{
+  height: 200px;
+}
+
+#left
+{
+  text-align: left;
+  margin-left: 20px;
+}
